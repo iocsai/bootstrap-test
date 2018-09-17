@@ -1,0 +1,91 @@
+/* GENERAL STYLES */
+.text-primary{
+  color: goldenrod;
+}
+
+body {
+  background-color: burlywood;
+}
+
+/* .header section styles */
+.header {
+  background: url(assets/spqr.jpg) no-repeat center center scroll;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-origin: padding-box;  
+  padding: 2rem 2rem;
+  
+}
+
+.row {
+  text-align: center;
+}
+
+/* .seven-hills section styles */
+.seven-hills {
+  background: url(assets/seven-hills.jpg) no-repeat center center scroll;
+  background-size: cover;
+  height: 100vh;
+  padding: 2rem 2rem;
+  color: antiquewhite;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-origin: padding-box;
+}
+
+.seven-hills ul li {
+  display: inline;
+  margin: 1.5rem;
+}
+
+.hill {
+  font-size: 1.5rem;
+}
+
+/* Hannibal ante portas section styles */
+.hannibal {
+  background: url(assets/800px-Mediterranean_at_218_BC-en.svg.png) no-repeat center center scroll;
+  background-size: cover;
+  height: 100vh;
+  padding: 2rem 2rem;
+}
+
+.hannibal-barca, .scipio {
+  color: antiquewhite;
+}
+
+.hannibal .jumbotron {
+  background-color: beige;
+}
+
+.hannibal h2 {
+  text-align: center;
+}
+
+.hannibal p {
+  text-align: center;
+  color: ivory;
+  font-size: 1.4rem;
+}
+
+.hannibal-barca img, .scipio img {
+  width: 18rem;
+  text-align: center;
+}
+
+.hannibal a {
+  text-decoration: none;
+}
+
+.panel {
+  background-color: rgba(201, 76, 76, 0.3);
+}
